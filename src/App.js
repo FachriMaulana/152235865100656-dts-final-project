@@ -22,6 +22,7 @@ import {
   RecipeName,
   IngredientsText,
   SeeMoreText,
+  Footer,
 } from "./components/recipeComponent";
 
 const APP_ID = "140838f7";
@@ -123,6 +124,7 @@ function App() {
           <Placeholder src="recipebook.svg" />
         )}
       </RecipeListContainer>
+      <Footer>M. Fachri Maulana</Footer>
     </Container>
   );
 }

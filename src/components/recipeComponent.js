@@ -39,3 +39,17 @@ export const SeeMoreText = styled(IngredientsText)`
   color: #eb3300;
   border: solid 1px #eb3300;
 `;
+
+export const Footer = styled.div`
+  color: white;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 0 3px 6px 0 #555;
+`;
